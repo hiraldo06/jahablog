@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>Formulario</title>
+	</head>
+	<body>
+		<header>
+			<h1>
+				<a href="index.html">JAHABlog</a>
+			</h1>
+		</header>	
+		<hr>
+		<section>
+			<div>
+				<form action="" method="POST" enctype="multipart/form-data">
+					<p>
+						<label for="texto">Label</label>
+						<input name="texto" type="text" placeholder="Texto">
+					</p>
+					<p>
+						<input type="email" placeholder="Email">
+					</p>
+					<p>
+						<input type="password" placeholder="Contraseña">
+					</p>
+					<p>
+						<input type="file" name="imagen">
+					</p>
+					<p>
+						<label for="sexo">
+							Hombre:
+							<input type="radio" name="sexo" value="Hombre" id="sexo"> 
+						</label>
+						<label for="sexo">
+							Mujer:
+							<input type="radio" name="sexo" value="mujer" id="sexo">
+						</label>		
+						
+					</p>
+					<p>
+						<label for="aqui">
+							ChequeBox
+						</label>
+						<input name="aqui" type="checkbox" value="clickAqui">
+					</p>
+					<p>
+						<textarea name="area" id="" cols="30" rows="10" placeholder="textarea"></textarea>
+					</p>
+					
+					<p>
+						<select name="select" id="genero">
+							<option value="pop">
+								POP
+							</option>
+							<option value="rock">
+								Rock
+							</option>
+							<option value="merengue">	
+								Merengue
+							</option>
+						</select>
+					</p>
+					
+				</form>
+
+			</div>
+			<table border="1">
+				<thead>
+					<tr>
+						<th>
+							Nombre
+						</th>
+						<th>
+							Correo
+						</th>
+						<th>
+							Telefono
+						</th>
+						<th>
+							Ver
+						</th>
+						<th>
+							Editar
+						</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td>
+							Juan Julian
+						</td>
+						<td>
+							juan@jaha.com
+						</td>
+						<td>
+							854-545-5455
+						</td>
+						<td>
+							<a href="#">Ver</a>
+						</td>
+						<td>
+							<button
+							>
+								Editar
+							</button>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							Munuel Polanco
+						</td>
+						<td>
+							manuel@jaha.com
+						</td>
+						<td>
+							854-545-5456
+						</td>
+						<td>
+							<a href="#">Ver</a>
+						</td>
+						<td>
+							<button
+							>
+								Editar
+							</button>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							Munuel Cruz
+						</td>
+						<td>
+							cruz@jaha.com
+						</td>
+						<td>
+							854-556-5456
+						</td>
+						<td>
+							<a href="#">Ver</a>
+						</td>
+						<td>
+							<button
+							>
+								Editar
+							</button>
+						</td>
+					</tr>
+				</tbody>
+			</table>
+		</section>
+		<hr>
+		<footer>
+			<strong>CopyRight &copy;<a href="index.html">JAHABlog</a></strong>Derechos Reservados.
+		</footer>
+	</body>
+</html>
