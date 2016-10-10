@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 	<head>
 		<meta charset="UTF-8">
 		<title>Formulario</title>
@@ -13,10 +13,10 @@
 		<hr>
 		<section>
 			<div>
-				<form action="" method="POST" enctype="multipart/form-data">
+				<form action="formulario.html" method="POST" enctype="multipart/form-data">
 					<p>
 						<label for="texto">Label</label>
-						<input name="texto" type="text" placeholder="Texto">
+						<input name="texto" type="text" placeholder="Texto" id="texto">
 					</p>
 					<p>
 						<input type="email" placeholder="Email">
@@ -28,13 +28,13 @@
 						<input type="file" name="imagen">
 					</p>
 					<p>
-						<label for="sexo">
+						<label >
 							Hombre:
-							<input type="radio" name="sexo" value="Hombre" id="sexo"> 
+							<input type="radio" name="sexo" value="Hombre" id="hombre"> 
 						</label>
-						<label for="sexo">
+						<label >
 							Mujer:
-							<input type="radio" name="sexo" value="mujer" id="sexo">
+							<input type="radio" name="sexo" value="mujer" id="mujer">
 						</label>		
 						
 					</p>
@@ -42,10 +42,10 @@
 						<label for="aqui">
 							ChequeBox
 						</label>
-						<input name="aqui" type="checkbox" value="clickAqui">
+						<input name="aqui" type="checkbox" value="clickAqui" id="aqui">
 					</p>
 					<p>
-						<textarea name="area" id="" cols="30" rows="10" placeholder="textarea"></textarea>
+						<textarea name="area" id="texto" cols="30" rows="10" placeholder="textarea"></textarea>
 					</p>
 					
 					<p>
